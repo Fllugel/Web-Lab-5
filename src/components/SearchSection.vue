@@ -20,35 +20,8 @@
         searchQuery: ''
       };
     },
-    mounted() {
-      // Initialize particles
-      //this.initParticles();
-    },
     methods: {
-      searchCourses() {
-        // Redirect to courses page with search query
-        if (this.searchQuery.trim() !== '') {
-          this.$router.push({ path: '/courses', query: { search: this.searchQuery } });
-        } else {
-          // If search query is empty, redirect to courses page without query
-          this.$router.push('/courses');
-        }
-      },
-      initParticles() {
-        const background = document.querySelector(".background");
-        const rect = background.getBoundingClientRect(); // Get dimensions of the background
-  
-        const minDistance = Math.min(rect.width, rect.height) * 0.8; // Adjust the multiplier as needed for desired spacing
-  
-        Particles.init({
-          selector: ".background",
-          color: "#99cd32",
-          connectParticles: true,
-          sizeVariations: 10,
-          maxParticles: 100,
-          minDistance: minDistance, // Set the minimum distance based on background size
-        });
-      }
+
     }
   }
   </script>
