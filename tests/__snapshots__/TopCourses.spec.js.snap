@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TopCourses.vue matches the snapshot 1`] = `
+"<div class="ui vertical container">
+  <h1 class="ui horizontal divider title-home">TOP COURSES</h1>
+  <div class="ui three column doubling grid">
+    <!-- Display courses using Vue data -->
+    <div class="column">
+      <div class="ui special cards">
+        <div class="ui centered card">
+          <div class="blurring dimmable image"><img class="image-card" src="image1.jpg" alt="Course Image"></div>
+          <div class="content"><a class="header"></a>
+            <div class="meta"><span class="date">Start Date: 2023-01-01</span><br><span class="date">End Date: 2023-01-31</span></div>
+          </div>
+          <div class="ui green button fluid"><i class="cart icon"></i> Buy now </div>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui special cards">
+        <div class="ui centered card">
+          <div class="blurring dimmable image"><img class="image-card" src="image2.jpg" alt="Course Image"></div>
+          <div class="content"><a class="header"></a>
+            <div class="meta"><span class="date">Start Date: 2023-02-01</span><br><span class="date">End Date: 2023-02-28</span></div>
+          </div>
+          <div class="ui green button fluid"><i class="cart icon"></i> Buy now </div>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="ui special cards">
+        <div class="ui centered card">
+          <div class="blurring dimmable image"><img class="image-card" src="image9.jpg" alt="Course Image"></div>
+          <div class="content"><a class="header"></a>
+            <div class="meta"><span class="date">Start Date: 2023-03-01</span><br><span class="date">End Date: 2023-03-31</span></div>
+          </div>
+          <div class="ui green button fluid"><i class="cart icon"></i> Buy now </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="ui section divider"></div>
+</div>"
+`;

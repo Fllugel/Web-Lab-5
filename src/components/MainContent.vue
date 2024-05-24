@@ -11,7 +11,7 @@
                 <img class="image-card" :src="course.image" alt="Course Image">
               </div>
               <div class="content">
-                <a class="header" :href="getCourseLink(course.id)">{{ course.name }}</a>
+                <a class="header"></a>
                 <div class="meta">
                   <span class="date">Start Date: {{ course.start_date }}</span><br>
                   <span class="date">End Date: {{ course.end_date }}</span>
@@ -94,9 +94,6 @@ export default {
         throw error;
       });
     },
-    getCourseLink(courseId) {
-      return `course.html?id=${courseId}`; // Modify the course link as per your requirements
-    }
   }
 };
 </script>

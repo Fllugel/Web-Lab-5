@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchSection.vue matches the snapshot 1`] = `
+"<div class="ui inverted vertical masthead center aligned segment">
+  <div class="ui text container"><canvas class="background"></canvas>
+    <h1 class="ui inverted header">Find your course</h1>
+    <div class="ui fluid big action input"><input type="text" placeholder="Search...">
+      <div class="ui green button"><i class="search icon"></i></div>
+    </div>
+  </div>
+</div>"
+`;
