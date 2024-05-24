@@ -12,7 +12,6 @@
   </template>
   
   <script>
-  import Particles from 'particlesjs';
   
   export default {
     data() {
